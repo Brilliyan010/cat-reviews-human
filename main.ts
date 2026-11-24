@@ -7,15 +7,15 @@
 //
 // The line: a deadpan one-star review. The cat's complaint is specific and
 // recognisable (the food bowl, refilled at 6 a.m. sharp — then the human
-// sleeps in on Sunday as if the schedule were optional), the voice is
+// sleeps in on Sunday as if the schedule were a suggestion), the voice is
 // unmistakably feline (the human is measured by cat timekeeping), and the
-// sting lands in the last two sentences: the cat screamed, and nothing
-// changed — a formal complaint filed into the void.
+// sting lands in the last two sentences: the cat screamed, and he snored —
+// the formal complaint was answered by a snore.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "One star. He refills my bowl at 6 a.m. sharp, then sleeps in on Sunday like time is optional. I screamed. Nothing changed.";
+  "One star. He refills my bowl at 6 a.m. sharp, then sleeps in on Sunday like the schedule is a suggestion. I screamed. He snored.";
 
 const OUT_DIR = "/output";
 const OUT_FILE = `${OUT_DIR}/entry.txt`;
